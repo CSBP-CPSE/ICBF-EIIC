@@ -5,7 +5,7 @@ The scripts in this project are broken up into workflow tasks, and contain both 
 
 --------
 ## Directory Structure:
-
+```
 /
 ├───data - contains script for downloading all data.
 ├───mbtiles - contains script for converting geojsons to mbtiles
@@ -14,7 +14,7 @@ The scripts in this project are broken up into workflow tasks, and contain both 
 ├───preprocessing - contains scripts for reprocessing OSM and MS data
 ├───statistics - contains a script and results for calculating stats on output
 └───validation - contains scripts for sampling data used for validation and quality control.
-
+```
 
 --------
 ## Processing Workflow:
@@ -140,7 +140,7 @@ Note: To see an example of each scripts usage, see the `./minifying/minify_merge
 Final step in this work flow is converting the minified GeoJSON files from the previous step into mbtiles (Note: In the case of Ontario, the original data was too large to upload, and was split in two).
 
 1. Install tippecanoe:
- **Steps for setting up a conda environment with tippecanoe in the JuptyerLab on AAW**
+ **Steps for setting up a conda environment with tippecanoe in JuptyerLab**
   1. Create a new environment 
    * type "conda create --name tippe" in terminal
   2. Make sure conda is initalized with bash as it's terminal
