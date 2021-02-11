@@ -1,0 +1,120 @@
+rm -r minified_building_footprints
+mkdir minified_building_footprints
+
+
+python reduce_coordinate_precision.py NS.geojson 7
+python remove_fields_from_geojson.py NS_reduce_coord_precision.geojson "OBJECTID,Longitude,Latitude,CSDUID,CSDNAME,Build_ID,Shape_Leng,Shape_Area,osm_id,code,fclass,name,type"
+python remove_duplicate_geometries.py NS_reduce_coord_precision_removed_fields.geojson
+
+mv unique_NS_reduce_coord_precision_removed_fields.geojson ./minified_building_footprints/NS.geojson
+rm NS_reduce_coord_precision_removed_fields.geojson
+rm NS_reduce_coord_precision.geojson
+
+
+python reduce_coordinate_precision.py AB.geojson 7
+python remove_fields_from_geojson.py AB_reduce_coord_precision.geojson "OBJECTID,Longitude,Latitude,CSDUID,CSDNAME,Build_ID,Shape_Leng,Shape_Area,osm_id,code,fclass,name,type"
+python remove_duplicate_geometries.py AB_reduce_coord_precision_removed_fields.geojson
+
+mv unique_AB_reduce_coord_precision_removed_fields.geojson ./minified_building_footprints/AB.geojson
+rm AB_reduce_coord_precision_removed_fields.geojson
+rm AB_reduce_coord_precision.geojson
+
+
+python reduce_coordinate_precision.py BC.geojson 7
+python remove_fields_from_geojson.py BC_reduce_coord_precision.geojson "OBJECTID,Longitude,Latitude,CSDUID,CSDNAME,Build_ID,Shape_Leng,Shape_Area,osm_id,code,fclass,name,type"
+python remove_duplicate_geometries.py BC_reduce_coord_precision_removed_fields.geojson
+
+mv unique_BC_reduce_coord_precision_removed_fields.geojson ./minified_building_footprints/BC.geojson
+rm BC_reduce_coord_precision_removed_fields.geojson
+rm BC_reduce_coord_precision.geojson
+
+
+python reduce_coordinate_precision.py MB.geojson 7
+python remove_fields_from_geojson.py MB_reduce_coord_precision.geojson "OBJECTID,Longitude,Latitude,CSDUID,CSDNAME,Build_ID,Shape_Leng,Shape_Area,osm_id,code,fclass,name,type"
+python remove_duplicate_geometries.py MB_reduce_coord_precision_removed_fields.geojson
+
+mv unique_MB_reduce_coord_precision_removed_fields.geojson ./minified_building_footprints/MB.geojson
+rm MB_reduce_coord_precision_removed_fields.geojson
+rm MB_reduce_coord_precision.geojson
+
+
+python reduce_coordinate_precision.py NB.geojson 7
+python remove_fields_from_geojson.py NB_reduce_coord_precision.geojson "OBJECTID,Longitude,Latitude,CSDUID,CSDNAME,Build_ID,Shape_Leng,Shape_Area,osm_id,code,fclass,name,type"
+python remove_duplicate_geometries.py NB_reduce_coord_precision_removed_fields.geojson
+
+mv unique_NB_reduce_coord_precision_removed_fields.geojson ./minified_building_footprints/NB.geojson
+rm NB_reduce_coord_precision_removed_fields.geojson
+rm NB_reduce_coord_precision.geojson
+
+
+python reduce_coordinate_precision.py NL.geojson 7
+python remove_fields_from_geojson.py NL_reduce_coord_precision.geojson "OBJECTID,Longitude,Latitude,CSDUID,CSDNAME,Build_ID,Shape_Leng,Shape_Area,osm_id,code,fclass,name,type"
+python remove_duplicate_geometries.py NL_reduce_coord_precision_removed_fields.geojson
+
+mv unique_NL_reduce_coord_precision_removed_fields.geojson ./minified_building_footprints/NL.geojson
+rm NL_reduce_coord_precision_removed_fields.geojson
+rm NL_reduce_coord_precision.geojson
+
+
+python reduce_coordinate_precision.py NT.geojson 7
+python remove_fields_from_geojson.py NT_reduce_coord_precision.geojson "OBJECTID,Longitude,Latitude,CSDUID,CSDNAME,Build_ID,Shape_Leng,Shape_Area,osm_id,code,fclass,name,type"
+python remove_duplicate_geometries.py NT_reduce_coord_precision_removed_fields.geojson
+
+mv unique_NT_reduce_coord_precision_removed_fields.geojson ./minified_building_footprints/NT.geojson
+rm NT_reduce_coord_precision_removed_fields.geojson
+rm NT_reduce_coord_precision.geojson
+
+
+python reduce_coordinate_precision.py NU.geojson 7
+python remove_fields_from_geojson.py NU_reduce_coord_precision.geojson "OBJECTID,Longitude,Latitude,CSDUID,CSDNAME,Build_ID,Shape_Leng,Shape_Area,osm_id,code,fclass,name,type"
+python remove_duplicate_geometries.py NU_reduce_coord_precision_removed_fields.geojson
+
+mv unique_NU_reduce_coord_precision_removed_fields.geojson ./minified_building_footprints/NU.geojson
+rm NU_reduce_coord_precision_removed_fields.geojson
+rm NU_reduce_coord_precision.geojson
+
+
+python reduce_coordinate_precision.py ON.geojson 7
+python remove_fields_from_geojson.py ON_reduce_coord_precision.geojson "OBJECTID,Longitude,Latitude,CSDUID,CSDNAME,Build_ID,Shape_Leng,Shape_Area,osm_id,code,fclass,name,type"
+python remove_duplicate_geometries.py ON_reduce_coord_precision_removed_fields.geojson
+
+mv unique_ON_reduce_coord_precision_removed_fields.geojson ./minified_building_footprints/ON.geojson
+rm ON_reduce_coord_precision_removed_fields.geojson
+rm ON_reduce_coord_precision.geojson
+
+
+python reduce_coordinate_precision.py PE.geojson 7
+python remove_fields_from_geojson.py PE_reduce_coord_precision.geojson "OBJECTID,Longitude,Latitude,CSDUID,CSDNAME,Build_ID,Shape_Leng,Shape_Area,osm_id,code,fclass,name,type"
+python remove_duplicate_geometries.py PE_reduce_coord_precision_removed_fields.geojson
+
+mv unique_PE_reduce_coord_precision_removed_fields.geojson ./minified_building_footprints/PE.geojson
+rm PE_reduce_coord_precision_removed_fields.geojson
+rm PE_reduce_coord_precision.geojson
+
+
+python reduce_coordinate_precision.py QC.geojson 7
+python remove_fields_from_geojson.py QC_reduce_coord_precision.geojson "OBJECTID,Longitude,Latitude,CSDUID,CSDNAME,Build_ID,Shape_Leng,Shape_Area,osm_id,code,fclass,name,type"
+python remove_duplicate_geometries.py QC_reduce_coord_precision_removed_fields.geojson
+
+mv unique_QC_reduce_coord_precision_removed_fields.geojson ./minified_building_footprints/QC.geojson
+rm QC_reduce_coord_precision_removed_fields.geojson
+rm QC_reduce_coord_precision.geojson
+
+
+python reduce_coordinate_precision.py SK.geojson 7
+python remove_fields_from_geojson.py SK_reduce_coord_precision.geojson "OBJECTID,Longitude,Latitude,CSDUID,CSDNAME,Build_ID,Shape_Leng,Shape_Area,osm_id,code,fclass,name,type"
+python remove_duplicate_geometries.py SK_reduce_coord_precision_removed_fields.geojson
+
+mv unique_SK_reduce_coord_precision_removed_fields.geojson ./minified_building_footprints/SK.geojson
+rm SK_reduce_coord_precision_removed_fields.geojson
+rm SK_reduce_coord_precision.geojson
+
+
+python reduce_coordinate_precision.py YT.geojson 7
+python remove_fields_from_geojson.py YT_reduce_coord_precision.geojson "OBJECTID,Longitude,Latitude,CSDUID,CSDNAME,Build_ID,Shape_Leng,Shape_Area,osm_id,code,fclass,name,type"
+python remove_duplicate_geometries.py YT_reduce_coord_precision_removed_fields.geojson
+
+mv unique_YT_reduce_coord_precision_removed_fields.geojson ./minified_building_footprints/YT.geojson
+rm YT_reduce_coord_precision_removed_fields.geojson
+rm YT_reduce_coord_precision.geojson
+

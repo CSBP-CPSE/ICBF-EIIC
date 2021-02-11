@@ -1,0 +1,4 @@
+# Directories to ignore
+#######################
+__pycache__/
+.idea/
