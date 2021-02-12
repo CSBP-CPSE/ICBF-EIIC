@@ -11,7 +11,7 @@ The scripts in this project are broken up into workflow tasks, and contain both 
 ├───mbtiles - contains script for converting geojsons to mbtiles
 ├───merge - contains scripts for merging ODB, OSM, and MS data
 ├───minifying - contains scripts for minimizing merged geojson files
-├───preprocessing - contains scripts for reprocessing OSM and MS data
+├───preprocessing - contains scripts for preprocessing OSM and MS data
 ├───statistics - contains a script and results for calculating stats on output
 └───validation - contains scripts for sampling data used for validation and quality control.
 ```
@@ -22,7 +22,7 @@ The general steps for process:
 
 1. Download open building footprint spatial data and spatial boundary data.
 2. Preprocessing the OSM and MS data.
-3. Merging ODB, OSM and MS data using.
+3. Merging ODB, OSM and MS data using GeoPandas.
 4. Minifying the merge data. 
  * Removing all fields but the required data provider 'Data_prov', reducing the coordinate precision from 15 to 7 decimal places, and remove duplicate geometries. This resulted in a significan reduction of the data size requirements.
 5. Conversion of the minified geojson data into Mapbox tiles data (.mbtiles files)
