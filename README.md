@@ -1,5 +1,5 @@
 # Integrated Canadian Building Footprints (ICBF)
-This is the project directory containing the scripts needed to download, process, and produce updated Mapbox tiles for Canadian building footprint data, sourced from the Open Database of Building (ODB), Microsoft and OSM.
+This is the project directory containing the scripts needed to download, process, and produce updated Mapbox tiles for Canadian building footprint data, sourced from the [Open Database of Buildings (ODB)](https://www.statcan.gc.ca/eng/lode/databases/odb), [Microsoft Canadian Building Footprints](https://github.com/microsoft/CanadianBuildingFootprints), and [OpenSteetMap (OSM)](https://www.geofabrik.de/).
 
 The scripts in this project are broken up into workflow tasks, and contain both the original Python scripts and Bash scripts that provide an example of how they can be used. 
 
