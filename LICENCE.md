@@ -1,4 +1,4 @@
-## Building-Merge - Terms and Conditions of Use
+## Integrated Canadian Building Footprints (ICBF) - Terms and Conditions of Use
 
 Unless otherwise noted, the files listed in Linkable Open Data Environment (LODE) 
 is covered under Crown Copyright, Government of Canada, and is distributed under 
@@ -38,7 +38,7 @@ DEALINGS IN THE SOFTWARE.
 
 --------------------------------------------------------------------------------------------------------------------------------------
 
-## Building-Merge — Conditions d’utilisation
+## Empreintes intégrées des immeubles canadiens (EIIC) — Conditions d’utilisation
 
 Sauf indication contraire, le code source du programme informatique de "Environnement de couplage de données ouvertes (ECDO" est protégé par le droit d’auteur de la Couronne du gouvernement du Canada et distribué sous la licence MIT.
 
