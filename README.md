@@ -5,6 +5,14 @@ The scripts in this project are broken up into workflow tasks, and contain both 
 
 The script and documentation are part of work in progress and subject to continuous development. The technical documentation is available in English only.
 
+# Empreintes intégrées des immeubles canadiens (EIIC)
+
+Il s'agit du répertoire du projet contenant les scripts nécessaires pour télécharger, traiter et produire des tuiles Mapbox mises à jour pour les données sur l'empreinte des immeubles canadiens, provenant de [la Base de données ouvertes sur les immeubles (BDOI)](https://www.statcan.gc.ca/fra/ecdo/bases-donnees/bdoi), [les empreintes de bâtiments Microsoft](https://github.com/microsoft/CanadianBuildingFootprints), et [OpenSteetMap (OSM)](https://www.geofabrik.de/).
+
+Les scripts de ce projet sont divisés en tâches de flux de travail et contiennent à la fois les scripts Python originaux et les scripts Bash qui fournissent un exemple de leur utilisation.
+
+Le script et la documentation font partie du travail en cours et font l'objet d'un développement continu. La documentation technique est disponible en anglais uniquement.
+
 --------
 ## Directory Structure:
 ```
