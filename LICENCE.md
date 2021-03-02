@@ -1,8 +1,8 @@
 ## Integrated Canadian Building Footprints (ICBF) - Terms and Conditions of Use
 
-Unless otherwise noted, the files listed in Linkable Open Data Environment (LODE) 
-is covered under Crown Copyright, Government of Canada, and is distributed under 
-the MIT License.
+Unless otherwise noted, the files listed in the Integrated Canadian Building 
+Footprints (ICBF) are covered under Crown Copyright, Government of Canada, 
+and is distributed under the MIT License.
 
 The Canada wordmark and related graphics associated with
 this distribution are protected under trademark law and copyright law. No
@@ -10,7 +10,7 @@ permission is granted to use them outside the parameters of the Government of
 Canada's corporate identity program. For more information, see
 http://www.tbs-sct.gc.ca/fip-pcim/index-eng.asp.
 
-Copyright title to all 3rd party software distributed with LODE is held by 
+Copyright title to all 3rd party software distributed with ICBF is held by 
 the respective copyright holders as noted in those files. Users are asked to 
 read the 3rd Party Licenses referenced with those assets.
 
@@ -40,11 +40,11 @@ DEALINGS IN THE SOFTWARE.
 
 ## Empreintes intégrées des immeubles canadiens (EIIC) — Conditions d’utilisation
 
-Sauf indication contraire, le code source du programme informatique de "Environnement de couplage de données ouvertes (ECDO" est protégé par le droit d’auteur de la Couronne du gouvernement du Canada et distribué sous la licence MIT.
+Sauf indication contraire, le code source du programme informatique de "Empreintes intégrées des immeubles canadiens (EIIC)" est protégé par le droit d’auteur de la Couronne du gouvernement du Canada et distribué sous la licence MIT.
 
 Le mot-symbole «Canada » et les éléments graphiques connexes liés à cette distribution sont protégés en vertu des lois portant sur les marques de commerce et le droit d’auteur. Aucune autorisation n’est accordée pour leur utilisation à l’extérieur des paramètres du programme de coordination de l’image de marque du gouvernement du Canada. Pour obtenir davantage de renseignements à ce sujet, veuillez aller à la page http://www.tbs-sct.gc.ca/fip-pcim/index-fra.asp.
 
-La propriété du droit d’auteur de tout logiciel tiers distribué avec DEO est conservée par les détenteurs du droit d’auteur mentionnés dans ces fichiers. Nous demandons aux utilisateurs de lire les licences des tiers indiqués à titre de référence dans ces logiciels.
+La propriété du droit d’auteur de tout logiciel tiers distribué avec EIIC est conservée par les détenteurs du droit d’auteur mentionnés dans ces fichiers. Nous demandons aux utilisateurs de lire les licences des tiers indiqués à titre de référence dans ces logiciels.
 
 ## LICENCE MIT
 
