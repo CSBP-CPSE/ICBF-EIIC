@@ -23,6 +23,7 @@ Le script et la documentation font partie du travail en cours et font l'objet d'
 ├───minifying - contains scripts for minimizing merged geojson files
 ├───preprocessing - contains scripts for preprocessing OSM and MS data
 ├───statistics - contains a script and results for calculating stats on output
+├───utils - contains utility scripts
 └───validation - contains scripts for sampling data used for validation and quality control.
 ```
 
